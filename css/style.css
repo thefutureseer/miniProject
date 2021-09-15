@@ -1,0 +1,102 @@
+* {
+  width: auto;
+  margin-top: 1em;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  height: auto;
+  width: -webkit-fill-available;
+  position: fixed;
+  /* filter: opacity(100%); */
+}
+
+body {
+  margin: 1em;
+}
+
+
+nav {
+  height: 27px;
+  width: -webkit-fill-available;
+  margin: -3em 0em 0em 0em;
+  position: fixed;
+  background-color: aqua;
+  z-index: 7;
+}
+
+a {
+  margin: 1em;
+}
+
+h1 {
+  height: 2em;
+  width: -webkit-fill-available;
+  margin-top: -0.3em;
+  /* padding: auto; */
+  border-bottom: 10px solid #DDAF94;
+  overflow: hidden;
+  position: fixed;
+  background-color: rgb(16, 32, 32);
+  text-align: center;
+  font-size: 5em;
+  color: rgb(255, 0, 0);
+}
+
+
+
+/* .nav-link {
+  height: 1em;
+  background-color: rgb(255, 0, 0);
+  opacity: 1;
+  margin: 0em 0em 0em 1em;
+ display: block;
+  float: right;
+} */
+
+#h-6 {
+  margin-top: 6em;
+  color:rgb(255, 0, 0);
+  position: fixed;
+}
+
+.container-dashboard {
+  margin: 1em;
+  text-align: center;
+  z-index: 1;
+}
+
+section {
+  display: inline-block;
+  position: relative;
+  margin-top: 11em;
+}
+
+.div-space-1 {
+  height: 10em;
+  position: relative;
+  top: 14em
+}
+.div-space {
+  height: 10em;
+  position: relative;
+}
+
+img {
+  margin-top: 4em;
+}
+
+/* CONTACT FORM CSS */
+
+#container-contact {
+  margin: 5em 17em 2em 14em;
+  text-align: center;
+  border: rgb(2, 66, 2) solid 3px;
+}
+
+#sub-but {
+  height: 2em;
+  width: 5em;
+  border: rgb(2, 66, 2) solid 5px;
+}
