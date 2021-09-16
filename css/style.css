@@ -10,6 +10,7 @@ header {
   width: -webkit-fill-available;
   position: fixed;
   /* filter: opacity(100%); */
+  z-index: 1;
 }
 
 body {
